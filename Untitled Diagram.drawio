@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-28T15:12:31.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="z7w2SdgSbhK-R5JQ-5XO" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-28T15:15:09.799Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="BwcJeHQ_ukLYDeh-2iZt" version="15.3.7" type="github">
   <diagram id="OpJN6eBW9aZbd_widYFl" name="Page-1">
     <mxGraphModel dx="2003" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,7 +76,7 @@
             <mxPoint x="170" y="460" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="YdVehg9gXkAnftPKYYEg-13">
+        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="YdVehg9gXkAnftPKYYEg-13">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="230" y="490" as="targetPoint" />
             <Array as="points">
@@ -93,7 +93,7 @@
         <mxCell id="YdVehg9gXkAnftPKYYEg-13" value="Vacuum pump sluice 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="610" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-35" value="&lt;i&gt;control_vacuum_sluice(s,pl)&lt;/i&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="YdVehg9gXkAnftPKYYEg-14">
+        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-35" value="&lt;i&gt;control_vacuum_sluice(s,pl)&lt;/i&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="YdVehg9gXkAnftPKYYEg-14">
           <mxGeometry x="0.75" relative="1" as="geometry">
             <mxPoint x="230" y="490" as="targetPoint" />
             <Array as="points">
@@ -111,17 +111,8 @@
         <mxCell id="YdVehg9gXkAnftPKYYEg-14" value="Vacuum pump sluice 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="610" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YdVehg9gXkAnftPKYYEg-15" value="Door 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="810" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YdVehg9gXkAnftPKYYEg-16" value="Door 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="570" y="810" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="YdVehg9gXkAnftPKYYEg-17" value="Door 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-270" y="530" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YdVehg9gXkAnftPKYYEg-18" value="Door 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YdVehg9gXkAnftPKYYEg-23" value="&lt;i&gt;open_door(d&lt;/i&gt;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="70" y="420" width="90" height="20" as="geometry" />
@@ -156,23 +147,25 @@
         <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-6" value="&lt;i&gt;door_is_open(d)&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-280" y="490" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="7QEbIwmtzFfhTlJ7Jh2c-8" target="YdVehg9gXkAnftPKYYEg-36">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-15" value="start_system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;fontStyle=2" edge="1" parent="1" source="7QEbIwmtzFfhTlJ7Jh2c-8" target="YdVehg9gXkAnftPKYYEg-36">
+          <mxGeometry x="-0.8706" y="-36" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="474" y="570" />
               <mxPoint x="385" y="570" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-8" value="Start button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="434" y="610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="7QEbIwmtzFfhTlJ7Jh2c-9" target="YdVehg9gXkAnftPKYYEg-36">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-14" value="&lt;i&gt;stop_system&lt;/i&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="7QEbIwmtzFfhTlJ7Jh2c-9" target="YdVehg9gXkAnftPKYYEg-36">
+          <mxGeometry x="-0.9101" y="-40" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="610" y="570" />
               <mxPoint x="385" y="570" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-9" value="Stop Button" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -192,6 +185,15 @@
         </mxCell>
         <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-48" value="&lt;i&gt;chuck_swap_done&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="544" y="210" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-49" value="Door 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="600" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-50" value="Door 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="620" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-51" value="Door 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="680" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
