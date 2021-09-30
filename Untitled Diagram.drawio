@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-30T13:15:39.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="j5hPWWHvYEnvY3J2fP0S" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-30T13:17:03.413Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="2OEdmoOmmO4dWtJSaff4" version="15.3.8" type="github">
   <diagram id="OpJN6eBW9aZbd_widYFl" name="Page-1">
     <mxGraphModel dx="1933" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,14 +132,15 @@
         <mxCell id="YdVehg9gXkAnftPKYYEg-13" value="Vacuum pump sluice 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="80" y="610" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-35" value="&lt;i style=&quot;font-size: 15px;&quot;&gt;control_pressure_sluice(s,p&lt;sub style=&quot;font-size: 15px;&quot;&gt;l&lt;/sub&gt;)&lt;/i&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;fontSize=15;" parent="1" source="YdVehg9gXkAnftPKYYEg-14" edge="1">
-          <mxGeometry x="0.75" relative="1" as="geometry">
+        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-35" value="&lt;i style=&quot;font-size: 15px;&quot;&gt;control_pressure_sluice(s,p&lt;sub style=&quot;font-size: 15px;&quot;&gt;l&lt;/sub&gt;)&lt;/i&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;fontSize=15;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="Wi68_jP6Z80T0Oei2cjB-50" edge="1">
+          <mxGeometry x="0.6571" relative="1" as="geometry">
             <mxPoint x="230" y="490" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="270" y="550" />
+              <mxPoint x="285" y="550" />
               <mxPoint x="230" y="550" />
             </Array>
             <mxPoint as="offset" />
+            <mxPoint x="270" y="618" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-36" value="&lt;i style=&quot;font-size: 15px ; background-color: rgb(248 , 249 , 250)&quot;&gt;sluice_vacuum_status(s,p&lt;sub&gt;l&lt;/sub&gt;)&lt;/i&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="7QEbIwmtzFfhTlJ7Jh2c-35" vertex="1" connectable="0">
