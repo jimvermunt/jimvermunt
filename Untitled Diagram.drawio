@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-30T13:24:12.527Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="Fl3e9nqMSzZWzT8Dh_y2" version="15.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-30T14:06:55.398Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="pezbQUsY5nMQYfSmCh_Z" version="15.3.8" type="github">
   <diagram id="OpJN6eBW9aZbd_widYFl" name="Page-1">
     <mxGraphModel dx="1933" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,13 +34,13 @@
         <mxCell id="YdVehg9gXkAnftPKYYEg-2" value="Robot controller" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="170" y="240" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-45" value="&lt;i style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;do_chuck_swap&lt;/font&gt;&lt;/i&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;fontSize=15;" parent="1" source="YdVehg9gXkAnftPKYYEg-3" target="YdVehg9gXkAnftPKYYEg-10" edge="1">
+        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-45" value="&lt;i style=&quot;font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;chuck_swap_done&lt;/font&gt;&lt;/i&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;fontSize=15;" parent="1" source="YdVehg9gXkAnftPKYYEg-3" target="YdVehg9gXkAnftPKYYEg-10" edge="1">
           <mxGeometry x="0.7647" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-46" value="&lt;i style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;do_chuck_swap&lt;/font&gt;&lt;/i&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;fontSize=15;" parent="1" source="YdVehg9gXkAnftPKYYEg-3" target="YdVehg9gXkAnftPKYYEg-9" edge="1">
-          <mxGeometry x="0.759" relative="1" as="geometry">
+          <mxGeometry x="-0.6386" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -223,8 +223,8 @@
         <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-27" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;robot_is_ready_to_move(r)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=2" parent="1" vertex="1">
           <mxGeometry x="-70" y="176" width="200" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-48" value="&lt;i style=&quot;font-size: 15px;&quot;&gt;chuck_swap_done&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="550" y="210" width="140" height="20" as="geometry" />
+        <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-48" value="&lt;i style=&quot;font-size: 15px;&quot;&gt;chuck_swap_done&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="400" y="150" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7QEbIwmtzFfhTlJ7Jh2c-49" value="SL1D2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="-110" y="380" width="130" height="60" as="geometry" />
